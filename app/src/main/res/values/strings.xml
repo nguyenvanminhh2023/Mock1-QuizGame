@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">QuizGame</string>
+    <string name="app_title">Quiz Game</string>
+    <string name="account">Don\'t you have account yet? <font color="#5b39c6"><b><u>Sign Up</u></b></font></string>
+    <string name="forgot_password"><u>I forgot my password</u></string>
+    <string name="login_google">Continue with Google</string>
+    <string name="times_up">Sorry, time is up! Continue with next question.</string>
+    <string name="dialog_message">Congratulations!!!\nYou have answered all the questions. Do you want to see the result?</string>
+</resources>
