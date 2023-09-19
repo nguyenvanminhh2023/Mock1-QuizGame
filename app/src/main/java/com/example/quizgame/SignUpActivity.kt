@@ -32,7 +32,7 @@ class SignUpActivity : AppCompatActivity() {
         binding.btnSignUp.isClickable = false
 
         auth = Firebase.auth
-        auth.createUserWithEmailAndPassword(email, password).addOnCompleteListener{ task ->
+        auth.createUserWithEmailAndPassword(email, password).addOnCompleteListener { task ->
             if (task.isSuccessful) {
                 Toast.makeText(applicationContext, "Sign up successfully", Toast.LENGTH_SHORT).show()
                 finish()
